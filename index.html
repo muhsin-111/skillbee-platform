@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>SkillBee | Premium Learning</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,7 +24,7 @@
     <header id="home" class="hero-section">
         <div class="hero-content">
             <h1>Future Skills <br>Start Here</h1>
-            <p>SkillBee offers more than classes — we provide complete student development. With expert mentors, structured learning paths, recorded and live classes, skill-based programs, and parent support, we ensure every student learns better, grows stronger, and becomes future-ready in today’s fast-changing world.</p>
+            <p>SkillBee offers more than classes — we provide complete student development. Expert mentors and structured learning paths ensure every student is future-ready.</p>
             <button class="explore-btn" onclick="document.getElementById('courses').scrollIntoView()">Explore Courses</button>
         </div>
     </header>
@@ -49,6 +49,7 @@
                 <div class="slide"><img src="h2.png" alt="H2"></div>
                 <div class="slide"><img src="h3.png" alt="H3"></div>
                 <div class="slide"><img src="h4.png" alt="H4"></div>
+                <div class="slide"><img src="h5.png" alt="H5"></div>
                 <div class="slide"><img src="h1.png" alt="H1"></div>
                 <div class="slide"><img src="h2.png" alt="H2"></div>
                 <div class="slide"><img src="h3.png" alt="H3"></div>
@@ -59,14 +60,10 @@
     <section id="verify" class="unlock-section">
         <div class="verify-box">
             <h3>Student Access Portal</h3>
-            <p>Enter the code sent by office to unlock your class:</p>
-            <input type="text" id="studentCode" placeholder="Enter Code (e.g., SB2026)">
+            <input type="text" id="studentCode" placeholder="Enter Code">
             <button onclick="verifyCode()">Unlock My Course</button>
             <div id="videoArea" style="display:none; margin-top: 30px;">
-                <h4 style="color: #008080;">Access Granted! Enjoy your class:</h4>
-                <div class="video-container">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                </div>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
